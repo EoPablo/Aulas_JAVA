@@ -15,8 +15,5 @@ public class Variaveis {
         soma = salario * 0.05;
         formatado = String.format("%.2f", soma);
         System.out.println("5% é → R$ " + soma);
-
-        System.out.println("TESTEEEEEEE");
-
     }
 }
