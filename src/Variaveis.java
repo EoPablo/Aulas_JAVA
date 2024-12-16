@@ -16,5 +16,7 @@ public class Variaveis {
         formatado = String.format("%.2f", soma);
         System.out.println("5% é → R$ " + soma);
 
+        System.out.println("TESTEEEEEEE");
+
     }
 }
