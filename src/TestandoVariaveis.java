@@ -1,5 +1,6 @@
 public class TestandoVariaveis {
     public static void main(String[] args) {
-        System.out.println();
+        char caractere = 96;
+        System.out.println(caractere);
     }
 }
