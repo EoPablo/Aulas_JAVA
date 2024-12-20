@@ -9,7 +9,6 @@ public class CalculadoraPorcentagem {
             float percent = salario * 0.15F;
             String resultadoFormatado = String.format("%.2f", percent);
             System.out.println("15% é → R$ " + resultadoFormatado);
-            System.out.println("TESTE");
         }
     }
 }
