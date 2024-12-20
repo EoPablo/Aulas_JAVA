@@ -1,14 +1,16 @@
 public class CalculadoraPorcentagem {
     public static void main(String[] args) {
-        float salario = 1600F;
+        float salario = 1800F;
+        float resultado = 0F;
+        String porcentagem = "";
+
         if(salario > 4500){
-            float percent = salario * 0.3F;
-            String resultadoFormatado = String.format("%.2f", percent);
-            System.out.println("30% é → R$ " + resultadoFormatado);
+            resultado = salario * 0.3F;
+            porcentagem = "30%";
         } else {
-            float percent = salario * 0.15F;
-            String resultadoFormatado = String.format("%.2f", percent);
-            System.out.println("15% é → R$ " + resultadoFormatado);
+            resultado = salario * 0.15F;
+            porcentagem = "15%";
         }
+        System.out.println(String.format("O valor é → R$ %.2f (%s do salário)", resultado, porcentagem));
     }
 }
