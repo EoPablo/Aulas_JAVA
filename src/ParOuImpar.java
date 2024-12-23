@@ -12,5 +12,7 @@ public class ParOuImpar {
         } else {
             System.out.println("O número: " + number +" é ímpar!");
         }
+
+        scanner.close(); // Fecha o scanner
     }
 }
